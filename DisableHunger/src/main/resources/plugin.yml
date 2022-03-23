@@ -1,0 +1,8 @@
+name: DisableHunger
+version: '${project.version}'
+main: tr.mustafaesattemel.disablehunger.Main
+description: Prevent players from losing hunger.
+commands:
+  disablehungerreload:
+    description: Use this command for reload config.
+    permission: disablehunger.op
