@@ -38,4 +38,10 @@ public final class Main extends JavaPlugin implements Listener {
         this.hungerEnabled = enabled;
     }
     
+    @Override
+    public void reloadConfig() {
+        super.reloadConfig();
+        this.hungerEnabled = getConfig().getBoolean("DisableHunger");
+    }
+    
 }
